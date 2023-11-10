@@ -2,6 +2,8 @@
 
 ## This repository is for Credit Card Fraud Detection project
 
+### Group Memebers: Shri Abhiraami Thangavel, Addison Golo, Moyurakshi Saha
+
 ### Introduction
 Credit card fraud is a pervasive issue that affects millions of people worldwide. With the increasing reliance on digital transactions, the frequency and sophistication of fraudulent activities have also risen. Our project revolves around the analysis of a comprehensive Credit Card Fraud dataset from Kaggle, motivated by the imperative to mitigate financial losses and enhance the security of online transactions.
 
