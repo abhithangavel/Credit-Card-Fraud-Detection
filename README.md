@@ -22,24 +22,25 @@ Our primary algorithm will be logistic regression, a widely used method for bina
 
 ### Dataset
 The primary objective of this dataset is to facilitate the development of fraud detection algorithms and models to identify potentially fraudulent transactions.
- Time: The time of the transaction
- V1-V28: Anonymized features representing various transaction attributes (e.g., time, card#,acct#,merchant name,location, currency, country code etc.)
- Amount: The transaction amount
- Class: Binary label indicating whether the transaction is fraudulent (1) or not (0)
+- Time: The time of the transaction
+- V1-V28: Anonymized features representing various transaction attributes (e.g., time, card#,acct#,merchant name,location, currency, country code etc.)
+- Amount: The transaction amount
+- Class: Binary label indicating whether the transaction is fraudulent (1) or not (0)
 
 ### Plan of Work
- Data Exploration and Understanding: Gain insights into the dataset, understand its features, and explore relationships among variables.
- Data Preprocessing: Address missing data, perform data cleansing, and apply transformations such as normalization and log transformations.
- Model Implementation: Utilize logistic regression and Random Forest algorithms for predictive modeling.
- Variable Importance Analysis: Investigate and interpret significant variables through Random Forest decision trees.
- Analysis and Results: Present findings on significant variables, model performance, and interesting discoveries.
- Discussion: Reflect on the challenges faced during data cleansing, missing data handling, and the impact of data transformations on model outcomes.
+- Data Exploration and Understanding: Gain insights into the dataset, understand its features, and explore relationships among variables.
+- Data Preprocessing: Address missing data, perform data cleansing, and apply transformations such as normalization and log transformations.
+- Model Implementation: Utilize logistic regression and Random Forest algorithms for predictive modeling.
+- Variable Importance Analysis: Investigate and interpret significant variables through Random Forest decision trees.
+- Analysis and Results: Present findings on significant variables, model performance, and interesting discoveries.
+- Discussion: Reflect on the challenges faced during data cleansing, missing data handling, and the impact of data transformations on model outcomes.
 
 ### Potential Application/Use Case
-Credit Card Fraud Detection: Build machine learning models to detect and prevent credit card fraud by identifying suspicious transactions based on the provided features.
-Merchant Category Analysis: Examine how different merchant categories are associated with fraud.
-Transaction Type Analysis: Analyze whether certain types of transactions are more prone to fraud than others.
-Expected Results
+- Credit Card Fraud Detection: Build machine learning models to detect and prevent credit card fraud by identifying suspicious transactions based on the provided features.
+- Merchant Category Analysis: Examine how different merchant categories are associated with fraud.
+- Transaction Type Analysis: Analyze whether certain types of transactions are more prone to fraud than others.
+
+### Expected Results
 We anticipate developing a robust logistic regression model for fraud detection with at least 90% accuracy, complemented by insights from the Random Forest model regarding key features influencing fraud. Additionally, our project aims to uncover interesting patterns and contribute to the understanding of credit card fraud detection methodologies.
 
 This project aligns with the real-world challenges faced by financial institutions and serves as an excellent opportunity to apply machine learning techniques to solve practical problems.
