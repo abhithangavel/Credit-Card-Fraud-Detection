@@ -1,4 +1,4 @@
-# MachineLearning
+# Credit Card Fraud Detection Project
 
 ## This repository is for Credit Card Fraud Detection project
 
